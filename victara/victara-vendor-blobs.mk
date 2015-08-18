@@ -301,4 +301,10 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/lib/hw/sensorhub.msm8974.so:system/lib/hw/sensorhub.msm8974.so \
     vendor/motorola/victara/proprietary/lib/hw/sensors.msm8974.so:system/lib/hw/sensors.msm8974.so \
     vendor/motorola/victara/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/motorola/victara/proprietary/etc/firmware/atmel-a432-14102902-0103aa-victara.tdat:system/etc/firmware/atmel-a432-14102902-0103aa-victara.tdat
+    vendor/motorola/victara/proprietary/etc/firmware/atmel-a432-14102902-0103aa-victara.tdat:system/etc/firmware/atmel-a432-14102902-0103aa-victara.tdat \
+    vendor/motorola/victara/proprietary/bin/tcmd:system/bin/tcmd \
+    vendor/motorola/victara/proprietary/lib/libDxHdcp.so:system/lib/libDxHdcp.so \
+    vendor/motorola/victara/proprietary/lib/libadspd.so:system/lib/libadspd.so \
+    vendor/motorola/victara/proprietary/lib/libpkip.so:system/lib/libpkip.so \
+    vendor/motorola/victara/proprietary/lib/libtpa.so:system/lib/libtpa.so \
+    vendor/motorola/victara/proprietary/lib/libtpa_core.so:system/lib/libtpa_core.so

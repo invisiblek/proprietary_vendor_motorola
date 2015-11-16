@@ -154,21 +154,21 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/vendor/lib/libthermalioctl.so:system/vendor/lib/libthermalioctl.so \
     vendor/motorola/victara/proprietary/bin/qseecomd:system/bin/qseecomd \
     vendor/motorola/victara/proprietary/lib/drm/libfwdlockengine.so:system/lib/drm/libfwdlockengine.so \
-    vendor/motorola/victara/proprietary/lib/libdrmdiag.so:system/lib/libdrmdiag.so \
-    vendor/motorola/victara/proprietary/lib/libdrmfs.so:system/lib/libdrmfs.so \
-    vendor/motorola/victara/proprietary/lib/libdrmtime.so:system/lib/libdrmtime.so \
-    vendor/motorola/victara/proprietary/lib/libQSEEComAPI.so:system/lib/libQSEEComAPI.so \
-    vendor/motorola/victara/proprietary/lib/liboemcrypto.so:system/lib/liboemcrypto.so \
-    vendor/motorola/victara/proprietary/lib/librpmb.so:system/lib/librpmb.so \
-    vendor/motorola/victara/proprietary/lib/libssd.so:system/lib/libssd.so \
+    vendor/motorola/victara/proprietary/lib/libdrmdecrypt.so:system/lib/libdrmdecrypt.so \
     vendor/motorola/victara/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
     vendor/motorola/victara/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
     vendor/motorola/victara/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
     vendor/motorola/victara/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
     vendor/motorola/victara/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
-    vendor/motorola/victara/proprietary/vendor/lib/libdrmdecrypt.so:system/vendor/lib/libdrmdecrypt.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libQSEEComAPI.so:system/vendor/lib/libQSEEComAPI.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libdrmdiag.so:system/vendor/lib/libdrmdiag.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libdrmfs.so:system/vendor/lib/libdrmfs.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libdrmtime.so:system/vendor/lib/libdrmtime.so \
+    vendor/motorola/victara/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
+    vendor/motorola/victara/proprietary/vendor/lib/librpmb.so:system/vendor/lib/librpmb.so \
     vendor/motorola/victara/proprietary/vendor/lib/libsecureui.so:system/vendor/lib/libsecureui.so \
     vendor/motorola/victara/proprietary/vendor/lib/lib-sec-disp.so:system/vendor/lib/lib-sec-disp.so \
+    vendor/motorola/victara/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
     vendor/motorola/victara/proprietary/vendor/lib/drm/libdrmwvmplugin.so:system/vendor/lib/drm/libdrmwvmplugin.so \
     vendor/motorola/victara/proprietary/vendor/lib/mediadrm/libwvdrmengine.so:system/vendor/lib/mediadrm/libwvdrmengine.so \
     vendor/motorola/victara/proprietary/vendor/lib/mediadrm/libdrmclearkeyplugin.so:system/vendor/lib/mediadrm/libdrmclearkeyplugin.so \
@@ -200,7 +200,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/vendor/lib/libadreno_utils.so:system/vendor/lib/libadreno_utils.so \
     vendor/motorola/victara/proprietary/vendor/lib/libbccQTI.so:system/vendor/lib/libbccQTI.so \
     vendor/motorola/victara/proprietary/vendor/lib/libC2D2.so:system/vendor/lib/libC2D2.so \
-    vendor/motorola/victara/proprietary/vendor/lib/libc2d30.so:system/vendor/lib/libc2d30.so \
     vendor/motorola/victara/proprietary/vendor/lib/libc2d30-a3xx.so:system/vendor/lib/libc2d30-a3xx.so \
     vendor/motorola/victara/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/motorola/victara/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
@@ -251,7 +250,6 @@ PRODUCT_COPY_FILES += \
     vendor/motorola/victara/proprietary/bin/batt_health:system/bin/batt_health \
     vendor/motorola/victara/proprietary/bin/dbvc_atvc_property_set:system/bin/dbvc_atvc_property_set \
     vendor/motorola/victara/proprietary/bin/hardware_revisions.sh:system/bin/hardware_revisions.sh \
-    vendor/motorola/victara/proprietary/bin/mount_ext4.sh:system/bin/mount_ext4.sh \
     vendor/motorola/victara/proprietary/etc/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Signed_configdata.ncd:system/etc/firmware/BCM20795A1_001.002.012.0003.0078_Generic_I2C_NCD_Signed_configdata.ncd \
     vendor/motorola/victara/proprietary/bin/mm-pp-daemon:system/bin/mm-pp-daemon \
     vendor/motorola/victara/proprietary/vendor/lib/libmm-abl.so:system/vendor/lib/libmm-abl.so \
